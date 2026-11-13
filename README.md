@@ -2,6 +2,8 @@
 
 Después de configurar el archivo `.env`, logré levantar los contenedores de Docker siguiendo estos pasos (aunque todavía no visualizo información cargada en la interfaz):
 
+## Subir Volumenes 
+
 ### 1. Levantar los servicios con Docker Compose
 
 Ubícate en la carpeta del proyecto y ejecuta el siguiente comando para construir y levantar la infraestructura:
@@ -49,6 +51,8 @@ Una vez que los contenedores estén corriendo correctamente, ejecuta el script d
 
 
 -------
+## Bajar Volúmenes
+
 1. Bajar sin borrar volúmenes (y subir de nuevo)
 Bajar (contenedores y redes se van; volúmenes se quedan):
 
